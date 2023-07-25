@@ -1,0 +1,240 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.homepage {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: url("../earth.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app-name {
+  text-transform: uppercase;
+  line-height: 1em;
+  font-family: Sono;
+  font-size: 8vw;
+  text-align: center;
+  color: white;
+  margin-top: 10%;
+  margin-bottom: 40px;
+}
+
+.navbar li {
+  display: inline;
+}
+
+li {
+  font-size: x-large;
+  font-weight: 900;
+  margin-right: 30px;
+}
+
+button {
+  color: blue;
+}
+
+.creators {
+  margin-top: 500px;
+}
+
+.btn {
+  width: 150px;
+  background-color: rgba(7, 145, 244, 0.696);
+  margin-right: 20px;
+} 
+
+.Card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  padding: 0px;
+  flex-wrap: wrap;
+}
+
+.add-creator {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 15px;
+  margin-top: 500px;
+  padding: 25px;
+  color: white;
+} 
+
+.label {
+  font-size: 20px;
+}
+
+.text {
+  height: 50px;
+  width: 500px;
+  border-radius: 10px;
+  border-color: rgba(7, 145, 244, 0.696);
+  margin-bottom: 20px;
+}
+
+.social-media {
+  color: rgba(7, 145, 244, 0.696);
+}
+
+.mini-text {
+  margin-top: 0px;
+  font-size: 12px;
+}
+
+.max-text {
+  border-radius: 10px;
+  border-color: rgba(7, 145, 244, 0.696);
+  margin-bottom: 20px;
+}
+
+.create-btn {
+  height: 50px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border-color: rgba(7, 145, 244, 0.696);
+  font-size: large;
+  color: white;
+}
+
+.creator-card {
+  height: 400px;
+  width: 400px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  overflow: hidden;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.creator-name, .creator-btns {
+  margin-top: 100px;
+  color: white;
+}
+
+.view-creator{
+  display: flex;
+  justify-content: start;
+  margin: 15px;
+  margin-top: 500px;
+  padding: 25px;
+  border-radius: 15px;
+  color: rgba(244, 7, 7, 0.696);
+  box-shadow: 0 4px 8px #0003, 0 6px 20px #00000030;
+}
+
+.edit-creator {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 15px;
+  margin-top: 500px;
+  padding: 25px;
+  color: white;
+} 
+
+.creator-description {
+  color: white;
+}
+
+.social-media-links {
+  margin: 10px;
+}
+
+.delete-btn {
+  background-color: red
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 3rem;
+  width: 70%;
+}
+
+.det-social-media {
+  background-color: white;
+  display: flex;
+  width: max-content;
+  font-size: 1em;
+  text-transform: lowercase;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 0px;
+  justify-content: flex-start;
+  padding-left: 0px;
+  transition: all 0.5s;
+}
+
+.det-social-media:hover {
+  width: 150px;
+  box-sizing: border-box;
+  border: 2px solid blue;
+  background-color: rgb(0, 166, 255);
+}
+
+.edits {
+  display: flex;
+  grid-column: span 2;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  height: max-content;
+}
